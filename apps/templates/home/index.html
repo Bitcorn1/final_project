@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>채.끝</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/study.png' %}"rel="icon">
+  <link href="{% static 'assets/img/study.png' %}"rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/aos/aos.css' %}"rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}"rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}"rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}"rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}"rel="stylesheet">
+  <link href="{% static 'assets/vendor/remixicon/remixicon.css' %}"rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}"rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}"rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: OnePage - v4.9.0
+  * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<body>
+
+  <!-- ======= Header / 카테고리 ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo">
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/big logo.png' %}"alt="..."/>
+        </span> 
+      </h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="{% static 'assets/img/logo.png' %}"alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero"><b>Home</b></a></li>
+          <li><a class="nav-link scrollto" href="#about"><b>About & Review </b></a></li>
+          <li><a class="nav-link scrollto" href="#services"><b>Function</b></a></li>
+          <li><a class="nav-link scrollto" href="#team"><b>Team</b></a></li>
+          <li><a class="nav-link scrollto" href="#pricing"><b>Price</b></a></li>
+          <li><a class="nav-link scrollto" href="#faq"><b>Questions</b></a></li>
+          <li><a class="nav-link scrollto" href="#contact"><b>Contact</b></a></li>
+          <li class="dropdown"><a href="#"><span><b>Help</b></span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#"><b>문의사항</b></a></li>
+              <li><a href="#"><b>불편사항</b></a></li>
+            </ul>
+          </li>
+          <li>&nbsp;&nbsp;&nbsp;</li>
+          <li><div class="frame" width="150">
+            <button onclick="location.href='{% url 'logout' %}'" class="custom-btn btn-3"><span>Logout</span></button></div>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section / 홈 ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-9 text-center">
+          <span>
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/big logo.png' %}"width="450" height="450" alt="..."/>
+            <h2><b>영어 주관식 서술형 자동채점 프로그램</b></h2>
+          </span> 
+        </div>
+      </div>
+      <div class="text-center">
+        <!--class="btn-get-started scrollto"-->
+        <a href="http://pf.kakao.com/_NJhMxj" class="btn-get-started scrollto">Talk to the chatbot 🤖</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section / 소개 ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>영어 주관식 서술형 자동채점 프로그램</p>
+        </div>
+        <div class="row content">
+          <div class="parent">
+            <h5 style="text-align:center;"><mark style="background-color:#EBF5FF;">
+            <b>"현재는 베타기간으로 무료입니다, 자유롭게 채끝을 이용해 보세요🙂"</b><mark></h5>
+          </div>
+          <div class="parent"></div>
+          <div class="col-lg-6">
+            <ul style="text-align:center;" class="dung">
+              <li><b>👀 Ordinary</b></li>
+            </ul>
+            <p style="text-align:center;">
+              평범하고 일상에 밀접한 서비스를 만든다는 의미로, <br>
+              천승진(팀장),  황도연(부팀장),  권혁재,  백혜수,  주혜린으로 이루어진 팀입니다. <br>
+              함께 영어 주관식 서술형 자동채점 프로그램인 '채끝' 서비스를 만들고 있습니다.
+            </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <ul style="text-align:center;">
+              <li><b>🥩 채.끝</b></li>
+            </ul>
+            <p style="text-align:center;">
+              채점의 끝이라는 뜻으로, 영어 서술형 답안을 자동 채점해 주는 AI서비스입니다. <br>
+              다량의 답안지를 한 번에 채점할 수 있으며, 높은 정확도를 자랑합니다. <br>
+              채.끝에는 데이터를 저장하고 불러올 수 있는 기능도 한번 사용해보세요!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Clients Section / 협찬 로고 ======= -->
+    <section id="clients" class="clients section-bg">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4 col-6" data-aos="zoom-in">
+            <img src="{% static 'assets\img\multi.png' %}"class="img-fluid" alt="" style="margin-top: 10%;">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
+            <img src="{% static 'assets/img/doctor.png' %}"class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
+            <img src="" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
+            <img src="" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
+            <img src="" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
+            <img src="" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- End Clients Section -->
+
+    <!-- ======= Testimonials Section / 리뷰 ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Review</h2>
+          <p>저희 서비스를 이용해보신 고객분들의 후기 입니다.</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  채.끝을 이용하니 채점하는 시간을 줄일 수 있어 편리하고 좋았어요! 앞으로도 자주 애용하겠습니다, 좋은 서비스 만들어주셔서 감사해요ㅎㅎ
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/review/5.jpg' %}" class="testimonial-img" alt="">
+                <h3>권혁재</h3>
+                <h4>OO중학교 교사</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  현직 교사입니다. 지인이 알려주어 이용해보게 되었는데 시간도 절약되고 편리하네요. 유료화로 전환되어도 계속 사용해보려고 합니다!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/review/1.jpg' %}" class="testimonial-img" alt="">
+                <h3>천승진</h3>
+                <h4>OO고등학교 교사</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  학원에서 조교 알바하면서 사용해봤는데 빠르고 정확도가 높아서 좋았습니다, 좋은 서비스 덕분에 조교 할 일이 줄어서 너무 기쁘네요 :-)
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/review/4.jpg' %}" class="testimonial-img" alt="">
+                <h3>백혜수</h3>
+                <h4>학원 조교</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  항상 학생 답안 채점할 때마다 이런 서비스가 있으면 좋겠다고 생각했는데, 역시나 좋네요?! 주위 지인들한테도 알려줘야겠어요.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/review/3.jpg' %}" class="testimonial-img" alt="">
+                <h3>주혜린</h3>
+                <h4>OO학원 원장</h4>
+              </div>
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  제가 지금 하는 업무에 적용해볼 수 있는 서비스같아서 한번 사용해봤는데 정확도가 꽤 높네요. 주위 쌤들한테 알려주고 앞으로 계속 써보려고요! 
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/review/2.jpg' %}" class="testimonial-img" alt="">
+                <h3>황도연</h3>
+                <h4>OO대학교 교직원</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+        
+        <div class="section-title">
+          <h2>Function</h2>
+          <p>채.끝에서 제공하는 서비스들입니다. <br>
+            하단의 버튼 클릭을 통해 서비스의 자세한 소개글과 기능을 만나보실 수 있습니다.<br>
+            이동하고 싶은 페이지의 <mark style="background-color:#EBF5FF;"><b>영어 글씨</b></mark>를 눌러주세요!</p>
+        </div>
+
+        <div class="row icon-boxes" style="display: flex; justify-content: center; align-items: center;">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="ri-command-line"></i></div>
+              <h4 class="title"><a href="function.html">Service Introduction</a></h4>
+              <p class="description">채.끝의 자동채점 & 저장소 기능 소개글</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="auto.html">Automatic Scoring</a></h4>
+              <p class="description">채.끝의 첫 번째 기능 : 자동채점 프로그램</p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="ri-stack-line"></i></div>
+              <h4 class="title"><a href="storage.html">Storage</a></h4>
+              <p class="description">채.끝의 두 번째 기능 : 채.끝 저장소 (DB) </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Sevices Section -->
+
+    <!-- ======= Team Section / 팀 ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>다재다능한 Ordinary 팀원들을 소개합니다.</p>
+        </div>
+
+        <div class="row" style="display: flex; justify-content: center; align-items: center;">
+
+          <div class="col-lg-3 col-md-6 align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'assets\img\team\sj.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>천승진</h4>
+                <span>Ordinary 팀장</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'assets\img\team\dy.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>황도연</h4>
+                <span>Ordinary 부팀장</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'assets\img\team\hj.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>권혁재</h4>
+                <span>Ordinary 팀원</span>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div class="row" style="display: flex; justify-content: center; align-items: center;">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'assets\img\team\hs.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>백혜수</h4>
+                <span>Ordinary 팀원</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'assets\img\team\hl.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>주혜린</h4>
+                <span>Ordinary 팀원</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Pricing Section / 가격 ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Pricing</h2>
+          <p>채.끝을 정기적으로 이용하고 싶나요? 자세한 가격과 기준은 아래를 참고해주세요!<br>
+             기타 문의사항은 챗봇이나 게시판을 이용해주시기 바랍니다.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6" data-aos="zoom-im" data-aos-delay="100">
+            <div class="box">
+              <h3>무료</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box featured">
+              <h3>월간 이용권</h3>
+              <h4><sup>$</sup>19<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <h3>연간 이용권</h3>
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Frequently Asked Questions Section / 자주 묻는 질문 ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>채.끝을 이용하실 때 자주 묻는 질문들 입니다. <br>
+            답변을 참고하시고, 추가적인 문의 및 불편사항은 챗봇이나 게시판을 이용해주시기 바랍니다.</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">
+                채끝은 무슨 서비스인가요? <i class="bx bx-chevron-down icon-show"></i>
+                <i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  <br> "채끝"은 채점의 끝이라는 뜻으로, 영어 주관식 서술형을 자동으로 채점해주는 서비스입니다. Function 카테고리 > Automatic Scoring에 들어가
+                  영어 문제지, 답안, 학생의 답안 파일을 올려주시면 자동으로 채점됩니다. 베타 기간동안은 무료로 진행되니 한번 체험해보세요! 
+                  또한 채끝에는 자동채점 기능 외에도 데이터를 저장하고 불러올 수 있는 기능도 있으니 참고하세요🙂
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">
+                누구를 위한 서비스인가요?<i class="bx bx-chevron-down icon-show"></i>
+                <i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  <br> 원래 타깃은 영어 시험을 보게 되면 한번에 다량의 답안지를 채점 해야 하는 중고등학교 선생님들과 학원을 고려하고 만든 서비스이긴 하지만,
+                  현재는 교육기관, 서술형이 들어간 자격증 시험 등에서도 쓰일 수 있게 정확도를 높이고 있습니다!
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">
+                채점 결과에 오류가 있어요ㅠㅠ<i class="bx bx-chevron-down icon-show"></i>
+                <i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  <br> 채점 결과에 오류를 발견한 경우, 어떤 부분에서 오류가 났는지 사진과 함께 설명을 챗봇으로 보내주시거나 불편사항 게시판에 올려주세요!
+                  빠른 시일 내에 답변드린 후 오류를 해결 해드리겠습니다😢
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">
+                환불 / 결제 취소 하고 싶은데 어떻게 하면 되나요?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  <br>  챗봇이나 문의사항 게시판에 결제한 내역과 채.끝 아이디, 이름을 작성하여 올려주세요,
+                  자세한 내용은 공지사항을 참고하여 작성해주시며 감사하겠습니다. 최대한 빠른 시일 내에 환불 및 결제 취소를 도와드리겠습니다🙂
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">
+              이런 점이 마음에 안들어요!<i class="bx bx-chevron-down icon-show"></i>
+              <i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                <br> 서비스를 사용하시다가 마음에 안 드는 점이나 조언해줄 내용이 있다면, 챗봇에 남겨주세요! 
+                소중한 피드백을 귀 담아, 더 좋은 방향으로 서비스를 발전시켜보겠습니다😉
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>채.끝에게 하고 싶은 말이 있나요? </p>
+        </div>
+
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101161.39108011786!2d126.99794963555365!3d37.595251618026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca512b1b5e77b%3A0x90048774d24a2a4f!2z66mA7Yuw7Lqg7Y287IqkIOyEoOumiQ!5e0!3m2!1sko!2skr!4v1663731148876!5m2!1sko!2skr" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>서울특별시 강남구 대치동 889-41</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>cha.end@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Chatbot:</h4>
+                <p>상단에 "챗봇과 대화하기" 버튼을 눌러주세요.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-3">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>OnePage</h3>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>OnePage</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+</html>
