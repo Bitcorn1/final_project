@@ -1,2 +1,0 @@
-
-Team Ordinary Final Project
