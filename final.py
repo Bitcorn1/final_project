@@ -412,5 +412,6 @@ print("sbert_final"+"작업됨")
 # final=pd.read_csv('/content/final_score_q1.csv',index_col=0)
 # final
 # super power okay
+# alrighty
 
 
